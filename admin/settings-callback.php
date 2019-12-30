@@ -5,12 +5,6 @@ if (!defined('ABSPATH')) {
   exit;
 }
 
-// Validate plugin settings
-function myplugin_validate_options($input)
-{
-  return $input;
-}
-
 function myplugin_section_login_callback()
 {
   echo '<p>These settings enable you to customize the WP Login section.</p>';
@@ -99,8 +93,7 @@ function myplugin_callback_field_select($args)
 
   $selected_option = isset($options[$id]) ? sanitize_text_field($options[$id]) : '';
 
-  $select_options = array(
-
+  $select_options = [
     'default'   => 'Default',
     'light'     => 'Light',
     'blue'      => 'Blue',
@@ -109,8 +102,7 @@ function myplugin_callback_field_select($args)
     'midnight'  => 'Midnight',
     'ocean'     => 'Ocean',
     'sunrise'   => 'Sunrise',
-
-  );
+  ];
 
   echo '<select id="myplugin_options_' . $id . '" name="myplugin_options[' . $id . ']">';
 
