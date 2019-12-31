@@ -22,6 +22,9 @@ if (is_admin()) {
   require_once(plugin_dir_path(__FILE__) . '/admin/settings-validate.php');
 }
 
+// accessible from both admin and public
+require_once(plugin_dir_path(__FILE__) . '/includes/core-functions.php');
+
 // default plugin options
 function myplugin_options_default()
 {
