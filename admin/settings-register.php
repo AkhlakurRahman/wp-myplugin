@@ -13,14 +13,14 @@ function myplugin_register_settings()
   // Add Settings section
   add_settings_section(
     'myplugin_section_login',
-    'Customize Login Page',
+    esc_html__('Customize Login Page', 'myplugin'),
     'myplugin_section_login_callback',
     'myplugin'
   );
 
   add_settings_section(
     'myplugin_section_admin',
-    'Customize Admin Area',
+    esc_html__('Customize Admin Area', 'myplugin'),
     'myplugin_section_admin_callback',
     'myplugin'
   );
@@ -28,65 +28,65 @@ function myplugin_register_settings()
   // Add Settings field
   add_settings_field(
     'custom_url',
-    'Custom URL',
+    esc_html__('Custom URL', 'myplugin'),
     'myplugin_callback_field_text',
     'myplugin',
     'myplugin_section_login',
-    ['id' => 'custom_url', 'label' => 'Custom URL for the login logo link']
+    ['id' => 'custom_url', 'label' => esc_html__('Custom URL for the login logo link', 'myplugin')]
   );
 
   add_settings_field(
     'custom_title',
-    'Custom Title',
+    esc_html__('Custom Title', 'myplugin'),
     'myplugin_callback_field_text',
     'myplugin',
     'myplugin_section_login',
-    ['id' => 'custom_title', 'label' => 'Custom title attribute for the logo link']
+    ['id' => 'custom_title', 'label' => esc_html__('Custom title attribute for the logo link', 'myplugin')]
   );
 
   add_settings_field(
     'custom_style',
-    'Custom Style',
+    esc_html__('Custom Style', 'myplugin'),
     'myplugin_callback_field_radio',
     'myplugin',
     'myplugin_section_login',
-    ['id' => 'custom_style', 'label' => 'Custom CSS for the Login screen']
+    ['id' => 'custom_style', 'label' => esc_html__('Custom CSS for the Login screen', 'myplugin')]
   );
 
   add_settings_field(
     'custom_message',
-    'Custom Message',
+    esc_html__('Custom Message', 'myplugin'),
     'myplugin_callback_field_textarea',
     'myplugin',
     'myplugin_section_login',
-    ['id' => 'custom_message', 'label' => 'Custom text and/or markup']
+    ['id' => 'custom_message', 'label' => esc_html__('Custom text and/or markup', 'myplugin')]
   );
 
   add_settings_field(
     'custom_footer',
-    'Custom Footer',
+    esc_html__('Custom Footer', 'myplugin'),
     'myplugin_callback_field_text',
     'myplugin',
     'myplugin_section_admin',
-    ['id' => 'custom_footer', 'label' => 'Custom footer text']
+    ['id' => 'custom_footer', 'label' => esc_html__('Custom footer text', 'myplugin')]
   );
 
   add_settings_field(
     'custom_toolbar',
-    'Custom Toolbar',
+    esc_html__('Custom Toolbar', 'myplugin'),
     'myplugin_callback_field_checkbox',
     'myplugin',
     'myplugin_section_admin',
-    ['id' => 'custom_toolbar', 'label' => 'Remove new post and comment links from the Toolbar']
+    ['id' => 'custom_toolbar', 'label' => esc_html__('Remove new post and comment links from the Toolbar', 'myplugin')]
   );
 
   add_settings_field(
     'custom_scheme',
-    'Custom Scheme',
+    esc_html__('Custom Scheme', 'myplugin'),
     'myplugin_callback_field_select',
     'myplugin',
     'myplugin_section_admin',
-    ['id' => 'custom_scheme', 'label' => 'Default color scheme for new users']
+    ['id' => 'custom_scheme', 'label' => esc_html__('Default color scheme for new users', 'myplugin')]
   );
 }
 

@@ -5,6 +5,8 @@ Description: Trying different things and practicing to build a plugin
 Version: 1.0.0
 Author: Akhlakur Rahman
 Author URI: https://akrahman.me
+Text Domain: myplugin
+Domain Path: /languages
 
 Here is a short description of the plugin.  This should be no more than 150 characters.  No markup here.
 

@@ -1,0 +1,165 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: My Plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-01 11:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#. Author of the plugin
+msgid "Akhlakur Rahman"
+msgstr ""
+
+#: admin/settings-callback.php:99
+msgid "Blue"
+msgstr ""
+
+#: admin/settings-callback.php:100
+msgid "Coffee"
+msgstr ""
+
+#: admin/settings-register.php:53
+msgid "Custom CSS for the Login screen"
+msgstr ""
+
+#: admin/settings-register.php:67
+msgid "Custom Footer"
+msgstr ""
+
+#: admin/settings-register.php:71
+msgid "Custom footer text"
+msgstr ""
+
+#: admin/settings-register.php:58
+msgid "Custom Message"
+msgstr ""
+
+#: admin/settings-register.php:85
+msgid "Custom Scheme"
+msgstr ""
+
+#: admin/settings-register.php:49
+msgid "Custom Style"
+msgstr ""
+
+#: admin/settings-register.php:62
+msgid "Custom text and/or markup"
+msgstr ""
+
+#: admin/settings-register.php:40
+msgid "Custom Title"
+msgstr ""
+
+#: admin/settings-register.php:44
+msgid "Custom title attribute for the logo link"
+msgstr ""
+
+#: admin/settings-register.php:76
+msgid "Custom Toolbar"
+msgstr ""
+
+#: admin/settings-register.php:31
+msgid "Custom URL"
+msgstr ""
+
+#: admin/settings-register.php:35
+msgid "Custom URL for the login logo link"
+msgstr ""
+
+#: admin/settings-register.php:23
+msgid "Customize Admin Area"
+msgstr ""
+
+#: admin/settings-register.php:16
+msgid "Customize Login Page"
+msgstr ""
+
+#: admin/settings-callback.php:97
+msgid "Default"
+msgstr ""
+
+#: admin/settings-register.php:89
+msgid "Default color scheme for new users"
+msgstr ""
+
+#: admin/settings-callback.php:42
+msgid "Disable custom styles"
+msgstr ""
+
+#: admin/settings-callback.php:101
+msgid "Ectoplasm"
+msgstr ""
+
+#: admin/settings-callback.php:41
+msgid "Enable custom styles"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://akrahman.me"
+msgstr ""
+
+#: admin/settings-callback.php:98
+msgid "Light"
+msgstr ""
+
+#: admin/settings-callback.php:102
+msgid "Midnight"
+msgstr ""
+
+#: myplugin.php:45
+msgid "My custom message"
+msgstr ""
+
+#. Name of the plugin
+msgid "My Plugin"
+msgstr ""
+
+#: admin/admin-menu.php:21
+msgid "MyPlugin"
+msgstr ""
+
+#: admin/admin-menu.php:21
+msgid "MyPlugin Settings"
+msgstr ""
+
+#: admin/settings-callback.php:103
+msgid "Ocean"
+msgstr ""
+
+#: myplugin.php:43
+msgid "Powered by WordPress"
+msgstr ""
+
+#: admin/settings-register.php:80
+msgid "Remove new post and comment links from the Toolbar"
+msgstr ""
+
+#: myplugin.php:46
+msgid "Special message for users"
+msgstr ""
+
+#: admin/settings-callback.php:104
+msgid "Sunrise"
+msgstr ""
+
+#: admin/settings-callback.php:15
+msgid "These settings enable you to customize the WP Admin area."
+msgstr ""
+
+#: admin/settings-callback.php:10
+msgid "These settings enable you to customize the WP Login section."
+msgstr ""
+
+#. Description of the plugin
+msgid "Trying different things and practicing to build a plugin"
+msgstr ""

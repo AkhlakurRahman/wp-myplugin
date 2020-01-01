@@ -18,7 +18,7 @@ function myplugin_add_toplevel_menu()
      )
      */
 
-  add_submenu_page('options-general.php', 'MyPlugin Settings', 'MyPlugin', 'manage_options', 'myplugin', 'myplugin_display_settings_page');
+  add_submenu_page('options-general.php', esc_html__('MyPlugin Settings', 'myplugin'), esc_html__('MyPlugin', 'myplugin'), 'manage_options', 'myplugin', 'myplugin_display_settings_page');
 }
 
 add_action('admin_menu', 'myplugin_add_toplevel_menu');
